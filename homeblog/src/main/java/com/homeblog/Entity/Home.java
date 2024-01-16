@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @Data //Automatically getters and setters are imported by this. This is imported from lombok
 @Entity
 public class Home {
+
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 private long id;
